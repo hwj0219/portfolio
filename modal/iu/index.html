@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>아이유</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            display: none;
+        }
+        
+        .pc {
+            display: block;
+        }
+
+        @media screen and (max-width: 1242px) {
+            .pc {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="pc.jpg" alt="" class="pc">
+    <!-- <img src="tablet.jpg" alt="" class="tablet"> -->
+    <img src="mobile.jpg" alt="" class="mobile">
+</body>
+</html>
